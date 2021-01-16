@@ -1,0 +1,57 @@
+    .projects {
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .projects-container {
+
+    }
+
+    .projects-section1 {
+        background-image: url("./img-projects/un.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .section {
+        min-height: 100vh;
+        /*display: flex;*/
+    }
+
+    .section-wrapper {
+        display: flex;
+        min-width: 250px;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        max-width: 1024px;
+        text-align: center;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .section-wrapper h1 {
+        font-size: 16px;
+        color: #fff;
+    }
+
+@media (min-width: 320px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 320px) {
+}

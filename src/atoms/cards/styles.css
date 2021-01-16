@@ -1,0 +1,178 @@
+:root {
+    --dosis: "Dosis", sans-serif;
+    --lobster: "Lobster", cursive;
+    --courgette: "Courgette", cursive;
+    --orbitron: "Orbitron", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 3rem 0;
+    height: auto;
+    width: 100%;
+    display: grid;
+    transition: 1s ease;
+}
+
+.products {
+    margin: 2rem auto;
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1.5rem;
+    transition: ease 0.5s;
+    box-shadow: 0 5px 10px -3px #00000099;
+}
+
+.hover-me {
+    color: #000000;
+    position: absolute;
+    transform: translateY(-8rem);
+    opacity: 0;
+    visibility: hidden;
+    font-family: var(--courgette);
+    transition: ease 0.3s;
+    z-index: 1;
+}
+
+.product-title {
+    padding: 0.5rem;
+    color: #ffffff;
+    font-family: var(--lobster);
+    font-weight: bold;
+    position: absolute;
+    transform: translateY(-1rem);
+    transition: ease 0.5s;
+    z-index: 1;
+}
+
+.about {
+    padding: 0.5rem;
+    font-family: var(--lobster);
+    color: #247976;
+    background: #ffffff;
+    border-radius: 7px;
+    font-weight: bold;
+    position: absolute;
+    transform: translateY(1rem);
+    opacity: 0;
+    visibility: hidden;
+    transition: ease 0.5s;
+}
+
+.about:hover {
+    background: rgba(36,121,118,1);
+    border-radius: 7px;
+    color: rgb(255,255,255);
+}
+
+.p-image {
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: ease 0.5s;
+    border: none;
+    border-radius: inherit;
+}
+
+.products:hover .p-image {
+    opacity: 1;
+}
+
+.products:hover .product-title {
+    color: #ffffff;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-8rem);
+}
+
+.products:hover .about {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(8rem);
+}
+
+.products:hover .hover-me {
+    opacity: 0;
+    visibility: hidden;
+}
+
+main .products:nth-child(2) .product-title {
+    color: black;
+    font-family: var(--lobster);
+    font-weight: bold;
+}
+
+.product-title {
+    transform: translateY(-8rem);
+}
+
+.hover-me {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (min-width: 768px){
+    .main{
+        grid-template-columns: repeat(2, minmax(5rem, 1fr));;
+    }
+
+    .p-image {
+        opacity: 0.3;
+    }
+
+    .about {
+        padding: 0.5rem;
+        font-family: var(--lobster);
+        color: #ffffff;
+        background: none;
+        position: absolute;
+        transform: translateY(1rem);
+        opacity: 0;
+        visibility: hidden;
+        transition: ease 0.5s;
+    }
+
+    .about:hover {
+        background: rgba(36,121,118,1);
+        border-radius: 7px;
+        color: rgb(255,255,255);
+    }
+
+    .product-title {
+        padding: 0.5rem;
+        color: black;
+        font-family: var(--lobster);
+        font-weight: bold;
+        position: absolute;
+        transform: translateY(-1rem);
+        transition: ease 0.5s;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1024px){
+    .main{
+        grid-template-columns: repeat(3, minmax(5rem, 1fr));
+    }
+}
+
+@media (min-width: 1800px){
+    .main{
+        grid-template-columns: repeat(4, minmax(4rem, 1fr));
+    }
+}
+
+@media (min-width: 2200px){
+    .main{
+        grid-template-columns: repeat(5, minmax(4rem, 1fr));
+    }
+}

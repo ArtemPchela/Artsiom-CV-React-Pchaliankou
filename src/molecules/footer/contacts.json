@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "path": "https://www.linkedin.com/in/artem-pchelenkov/",
+    "title": "Linkedin",
+    "img": "images/linkedin.png"
+  },
+  {
+    "id": 1,
+    "path": "tel:+46769612198",
+    "title": "+46769612198",
+    "img": "images/phone.png"
+  },
+  {
+    "id": 2,
+    "path": "",
+    "title": "pchelenkovartem",
+    "img": "images/skype.png"
+  },
+  {
+    "id": 3,
+    "path": "mailto:pchelenkovartem@gmail.com",
+    "title": "Email Me",
+    "img": "images/gmail.png"
+  }
+]

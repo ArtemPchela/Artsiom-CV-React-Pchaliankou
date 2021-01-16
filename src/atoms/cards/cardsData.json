@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "title": "Project 1",
+    "img": "/images/cards/pexels.jpeg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  },
+  {
+    "id": 1,
+    "title": "Project 2",
+    "img": "/images/cards/pexels2.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  },
+  {
+    "id": 2,
+    "title": "Project 3",
+    "img": "/images/cards/pexels3.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  },
+  {
+    "id": 3,
+    "title": "Project 4",
+    "img": "/images/cards/pexels4.jpeg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  },
+  {
+    "id": 4,
+    "title": "Project 5",
+    "img": "/images/cards/pexels5.jpeg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  },
+  {
+    "id": 5,
+    "title": "Project 6",
+    "img": "/images/cards/pexels6.jpeg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, qui?",
+    "direction": "About"
+  }
+]
